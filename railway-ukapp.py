@@ -81,12 +81,12 @@ st.markdown(
         font-weight: bold;
       }
     
-    .sidebar .stImage img {
-        border-radius: 50%;
-        width: 120px;       
-        height: 120px;      
-        object-fit: cover; 
-      }
+    # .sidebar .stImage img {
+    #     border-radius: 50%;
+    #     width: 120px;       
+    #     height: 120px;      
+    #     object-fit: cover; 
+    #   }
 
 
     </style>
@@ -100,7 +100,7 @@ st.markdown(
 # =============================================================
 st.sidebar.title("🚆 UK Railway Dashboard")
 # ----------------- IMAGE ---------------
-st.sidebar.image("uk.PNG",use_column_width=True)
+# st.sidebar.image("uk.PNG",use_column_width=True)
 
 
 # ------------------ LINK PROFILE -------------
